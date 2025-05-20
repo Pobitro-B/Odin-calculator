@@ -1,0 +1,60 @@
+.body{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 405px;
+}
+.display{
+    background-color: antiquewhite;
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.keys{
+    display: flex;
+    gap: 5px;
+}
+.numpad{
+    margin-top: 5px;
+    background-color: rgb(112, 111, 111);
+    height: 330px;
+    width: 160px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.number{
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.operation{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 75px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px 0px 5px 0px;
+}
+.fxn{
+    height: 50px;
+    width: 70px;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+.current{
+    color: black;
+}
